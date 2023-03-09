@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+image{
+    margin-right: 1px;
+}
+.line {
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 1px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    gap: 36px;
+    
+}
+a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(33, 19, 231);
+    font-weight: 600;
+}
+a:hover{
+    color: #ba0cc5;
+    font-weight: 600;
+}
+
+button{
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer; 
+    padding: 1%;
+    border-radius: 2%;
+    border: none;
+}
+button:hover{
+    color: #ba0cc5;
+    background-color: white;
+}
+.small_btn{
+    background-color: #ba0cc5;
+    color: white
+}
+.large_btn{
+    background-color: #ba0cc5;
+    color: white
+}
+.hero{
+    text-align: center;
+    padding-top: 8%;
+    background-image: url("./bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: normal;
+   margin-bottom: 0px;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-weight:300px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font: bold;
+   font-style: normal;
+}
